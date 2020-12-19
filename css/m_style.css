@@ -1,0 +1,43 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none; color: #ffffff}
+
+header{height: 10.9rem;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block; padding: 4.4rem 0rem 3.4rem 4.0rem;}
+header > nav > .menu{display: inline-block; padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%; padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right; background-color: #F3CAC9;padding: 1.3rem 2.3rem; border-bottom: 1px solid;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif; font-size: 1.6rem; font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .profile{background-color: #F3CAC9; text-align: center; height: 97.8rem;}
+section > .profile > .pf{padding-top: 5rem;}
+section > .profile > .pf_01{margin-top: 3.7rem;}
+section > .profile > .pf_02{margin-top: 3.7rem;}
+section > .profile > .pf_03{margin-top: 3.7rem;}
+section > .profile > .pf_04{margin-top: 3.7rem;}
+
+section > .bottom{background-color: #EFE3E3; height: 33.4rem;}
+section > .bottom > .bot_tit{margin: auto;text-align: center;width: 33.4rem;padding-top: 3.5rem;}
+section > .bottom > .bot_wrap{margin: auto;width: 33.4rem;display: flex;justify-content: space-between;align-items: center;padding-top: 3rem;}
+
+footer{background-color: #ffffff; height: 12.3rem; text-align: center;}
+footer > img{padding-top: 2.3rem;}
+
+/*----sub01----*/
+section > .sub_01_cont{height: 103.6rem; text-align: center;}
+section > .sub_01_cont > img{padding-top: 2.5rem;}
+
+/*----sub02----*/
+section > .sub_02_cont{height: 153.8rem; text-align: center;}
+section > .sub_02_cont > img{padding-top: 2.5rem;}
+
+/*----sub03----*/
+section > .sub_03_cont{height: 118.8rem; text-align: center;}
+section > .sub_03_cont > img{padding-top: 2.5rem;}
